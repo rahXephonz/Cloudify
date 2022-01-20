@@ -1,7 +1,7 @@
 import { Context } from "@interface/db";
 
 export const postQuery = {
-  hello: () => "wew!",
+  hello: () => "Its Runnn!",
   posts: async (
     _: any,
     { take, skip }: { take: number; skip: number },
