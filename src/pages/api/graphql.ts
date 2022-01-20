@@ -40,6 +40,7 @@ const apolloServer = new ApolloServer({
       userInfo,
     };
   },
+  introspection: true,
 });
 
 const serverStart = apolloServer.start();
