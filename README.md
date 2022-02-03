@@ -1,6 +1,10 @@
 ## Getting Started For Deployment App On Vercel
 
-First, run the development server on your local machine check all integrity is working fine:
+This Repo referencing by using vercel serverless [λ] functions
+Which is im using graphql in this Repo and running on vercel server.
+Firsting first create your online database using heroku postgres, digital ocean or etc.
+And then run the development server on your local machine check all integrity is working fine
+Also you can setup your database using docker.
 
 ```bash
 npm run dev
@@ -27,5 +31,5 @@ JWT_SECRET=your-key
 
 ```
 
-and setup your env in vercel and redeploy again, finally check all integrity again and make sure it was working fine.
+and setup your env in vercel and redeploy again, finally check all integrity and make sure it was working fine.
 
