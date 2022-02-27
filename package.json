@@ -25,7 +25,7 @@
     "bcryptjs": "^2.4.3",
     "dataloader": "^2.0.0",
     "date-fns": "^2.28.0",
-    "dotenv": "^14.2.0",
+    "dotenv": "14.3.2",
     "graphql": "^16.2.0",
     "gravatar-url": "^4.0.1",
     "jsonwebtoken": "^8.5.1",
