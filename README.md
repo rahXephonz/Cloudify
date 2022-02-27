@@ -1,4 +1,4 @@
-## Getting Started For Deployment App On Vercel
+# Getting Started For Deployment App On Vercel
 
 This Repo referencing by using vercel serverless [λ] functions
 Which is im using graphql in this Repo and running on vercel server.
@@ -33,3 +33,8 @@ JWT_SECRET=your-key
 ```
 
 and setup your env in vercel and redeploy again, finally check all integrity and make sure it was working fine.
+
+## Note For OAuth 
+
+For OAuth I didnt setting environment on vercel and i want do that only in local development not in production, but if we want adding OAuth in vercel we can setup
+a env in there, so you can simply read a env.example for read setting providers.
