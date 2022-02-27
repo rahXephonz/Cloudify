@@ -6,6 +6,8 @@
     "source.fixAll.eslint": true,
     "source.fixAll.format": true
   },
+
+  // interesting using peacock
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#1f6fd0",
     "activityBar.activeBorder": "#ee90bb",
@@ -25,5 +27,40 @@
     "titleBar.inactiveBackground": "#1857a499",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#1857a4"
+  "peacock.color": "#1857a4",
+
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.encoding": "utf8",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "search.exclude": {
+    ".next/**": true,
+    ".yarn/**": true,
+    "node_modules/**": true,
+    "out/**": true,
+    "out_functions/**": true,
+    "out_publish/**": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "css.validate": false,
+  "stylelint.enable": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true
+  }
 }

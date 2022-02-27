@@ -100,6 +100,7 @@ export const authResolvers = {
     // jwt token
     const token = JWT.sign(
       {
+        userId: user.id,
         email: user.email,
       },
       JWT_SECRET,
@@ -161,7 +162,7 @@ export const authResolvers = {
       };
     }
 
-    const token = JWT.sign({ userId: user.id }, JWT_SECRET, {
+    const token = JWT.sign({ userId: user.id, email: user.email }, JWT_SECRET, {
       expiresIn: 3600000,
     });
 

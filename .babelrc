@@ -1,0 +1,7 @@
+// Reduce Warning: Prop `className` did not match. when using styled components with semantic-ui-react
+// See https://stackoverflow.com/questions/51791163/warning-prop-classname-did-not-match-when-using-styled-components-with-seman
+
+{
+  "presets": ["next/babel"],
+  "plugins": [["styled-components", { "ssr": true }]]
+}

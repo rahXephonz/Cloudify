@@ -6,6 +6,7 @@ export const getUserFromToken = (token: string) => {
   try {
     return JWT.verify(token, JWT_SECRET) as {
       userId: number;
+      email: string;
     };
   } catch (error) {
     return null;

@@ -8,5 +8,6 @@ export interface Context {
   >;
   userInfo: {
     userId: number;
+    email: string;
   } | null;
 }

@@ -11,11 +11,10 @@ import {
 } from "@services/index";
 import { ApolloServer } from "apollo-server-micro";
 import { PageConfig } from "next";
-import { PrismaClient } from "@prisma/client";
+import { prisma } from "@lib/prisma";
 import { getUserFromToken } from "@utils/getUserFromToken";
 import { Context } from "@interface/db";
 
-const prisma = new PrismaClient();
 const cors = Cors();
 
 export const config: PageConfig = { api: { bodyParser: false } };

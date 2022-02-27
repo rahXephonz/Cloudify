@@ -15,6 +15,7 @@ yarn dev
 Then setting your .env variable for example i have a online database on heroku postgres
 
 your .env maybe look like this
+
 ```env
 
 #our database url in server for production
@@ -32,4 +33,3 @@ JWT_SECRET=your-key
 ```
 
 and setup your env in vercel and redeploy again, finally check all integrity and make sure it was working fine.
-
