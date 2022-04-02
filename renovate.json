@@ -1,3 +1,16 @@
 {
-  "extends": ["config:base"]
+  "extends": [
+    "config:base"
+  ],
+  "labels": ["automerge"],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["eslint"],
+      "labels": ["linting"]
+    },
+    {
+      "matchDepTypes": ["optionalDependencies"],
+      "addLabels": ["optional"]
+    }
+  ]
 }
