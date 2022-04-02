@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@apollo/client@^3.5.7":
+"@apollo/client@3.5.7":
   version "3.5.7"
   resolved "https://registry.yarnpkg.com/@apollo/client/-/client-3.5.7.tgz#38051c0a414ebf784319fa5131faa19df24fa9ec"
   integrity sha512-HSLqTGp3sp/PVIWYLLr5v3fjQSr6Fxg6Z5RQj5Q9ALyseIVudD8GZk1jHplaUblTFMBueXGw3Z6DXObuVAr3tw==
@@ -875,7 +875,7 @@ apollo-server-errors@^3.3.0:
   resolved "https://registry.yarnpkg.com/apollo-server-errors/-/apollo-server-errors-3.3.0.tgz#ac8ceb1400064312f983d8d70195693fbcf2be3c"
   integrity sha512-9/MNlPZBbEjcCdJcUSbKbVEBT9xZS8GSpX7T/TyzcxHSbsXJszSDSipQNGC+PRKTKAUnv61IONScVyLKEZ5XEQ==
 
-apollo-server-micro@^3.6.1:
+apollo-server-micro@3.6.1:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/apollo-server-micro/-/apollo-server-micro-3.6.1.tgz#1d17a7984115e1f9a5957e146d92ea2235b9c6ea"
   integrity sha512-De19N3j0w09Kv/Nl12b/tLPcC4/SujKmwoZLS0jp1jmie3QaQn6NH3IhGQ0AIzpcbJSptQsi8viYRiZA0+Xu+g==
