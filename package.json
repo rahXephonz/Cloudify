@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
-    "@types/jsonwebtoken": "^8.5.7",
+    "@types/jsonwebtoken": "8.5.9",
     "@types/micro-cors": "^0.1.2",
     "@types/next-auth": "^3.15.0",
     "@types/node": "16.11.11",
